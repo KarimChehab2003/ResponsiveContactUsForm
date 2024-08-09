@@ -1,31 +1,31 @@
-
 @font-face {
-    font-family: 'Karla';
-    src: url('../assets/fonts/Karla-VariableFont_wght.ttf') format('truetype')
-    ,url('../assets/fonts/Karla-Italic-VariableFont_wght.ttf') format('truetype')
-    
+  font-family: "Karla";
+  src: url("../assets/fonts/Karla-VariableFont_wght.ttf") format("truetype"),
+    url("../assets/fonts/Karla-Italic-VariableFont_wght.ttf") format("truetype");
 }
 
 body {
-    font-family: 'Karla', sans-serif !important;
+  font-family: "Karla", sans-serif !important;
+  min-height: 100vh;
+  height: 100%;
 }
 
-
-.attribution { 
-    font-size: 11px; text-align: center; 
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 .onHoverInput:focus {
-    --bs-focus-ring-color: rgba(var(--bs-success-rgb), .75);
-    --bs-focus-ring-width: 2px;
-    border-color: #198754 !important;
+  --bs-focus-ring-color: rgba(var(--bs-success-rgb), 0.75);
+  --bs-focus-ring-width: 2px;
+  border-color: #198754 !important;
 }
 
 .radioCheck:checked {
-    background-color: #198754 !important;
-    border-color: #198754 !important;
+  background-color: #198754 !important;
+  border-color: #198754 !important;
 }
